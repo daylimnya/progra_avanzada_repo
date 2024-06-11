@@ -25,3 +25,20 @@ This Python function implements the extended version of the classic Rock, Paper,
 
 ### Function
 The function `rock_paper_scissors_lizard_spock` takes the player's choice as input and randomly generates a choice for the computer. It then determines the winner based on the above rules.
+
+## Wordle
+
+### Description
+This python function implements a Wordle game programme. This function was designed by Daylin Ortega.
+
+### Game Rules
+
+It is a game that consists of guessing the 5-letter word, having a limited
+number of attempts to do so, in this case, there will be six opportunities.
+
+In each round, the game colors each letter indicating if that letter is
+in the word and if it is in the correct position.
+
+1. GREEN means the letter is in the word and in the CORRECT position.
+2. YELLOW means the letter is in the word but in the INCORRECT position.
+3. GRAY means the letter is NOT present in the word.
