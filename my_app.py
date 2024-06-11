@@ -14,7 +14,7 @@ def rock_paper_scissors_lizard_spock(choice: str) -> str:
     lizard eats paper
     paper disproves spock
     spock vaporizes rock
-    (and as it always has) rock crushes rcissors
+    (and as it always has) rock crushes scissors
     """
     choices = ["rock", "paper", "scissors", "lizard", "spock"]
     if choice not in choices:
