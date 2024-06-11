@@ -9,7 +9,7 @@ The app contains three functions:
 ## Rock Paper Scissors Lizard Spock
 
 ### Description
-This Python function implements the extended version of the classic Rock, Paper, Scissors game, including two additional choices: Lizard and Spock. The game rules were popularized by the TV show *The Big Bang Theory*.
+This Python function implements the extended version of the classic Rock, Paper, Scissors game, including two additional choices: Lizard and Spock. The game rules were popularized by the TV show *The Big Bang Theory*. This function was designed by Ignacio Romero.
 
 ### Game Rules
 - **Scissors** cuts **Paper**
