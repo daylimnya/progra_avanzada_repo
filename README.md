@@ -47,5 +47,19 @@ in the word and if it is in the correct position.
 
 ### Description
 The menu displays the on screen for the user.
-This function allows the user to choose playing between the games already described before or stop the interaction with a goodbye message.
-This function was designed by Camila Maire on cami-branch
+This function allows the user to choose playing between the games already described before or exiting the menu with a goodbye message and was designed by Camila Maire on cami-branch.
+
+### Function
+This function allows a user to select one of the mentioned games or close down the application properly.
+
+Behavior:
+The function contains an endless loop that displays menu options until the user decides to leave.
+User is requested to enter a number (1, 2, or 3) which prompts their for selecting an option.
+  Option 1: For instance, this can be “rock, paper, scissors, lizard, spock”. Next call is made to rock_paper_scissors_lizard_spock function using user’s selection and its output gets printed. In case this function does not exist error message is produced.
+    
+  Option 2: If wordle exists in the functions it uses the name otherwise it prints out an error message.
+    
+  Option 3: At this point good bye is displayed and then we exit from the menu breaking out of the loop.
+    
+  Any other input results in an "undefined option" message.
+
