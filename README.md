@@ -42,3 +42,9 @@ in the word and if it is in the correct position.
 1. GREEN means the letter is in the word and in the CORRECT position.
 2. YELLOW means the letter is in the word but in the INCORRECT position.
 3. GRAY means the letter is NOT present in the word.
+
+## Main Menu
+
+### Description
+The menu displays the on screen for the user.
+This function allows the user to choose playing between the games already described before or stop the interaction with a goodbye message.
