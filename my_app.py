@@ -46,7 +46,7 @@ def rock_paper_scissors_lizard_spock(choice: str) -> str:
 # print(rock_paper_scissors_lizard_spock("lizard"))
 
 
-def Wordle():
+def wordle():
     """
     (ESPAÑOL)
     Es un juego que consiste en adivinar la palabra de 5 letras, teniendo un número
