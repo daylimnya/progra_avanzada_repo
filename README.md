@@ -9,7 +9,7 @@ The app contains three functions:
 ## Rock Paper Scissors Lizard Spock
 
 ### Description
-This Python function implements the extended version of the classic Rock, Paper, Scissors game, including two additional choices: Lizard and Spock. The game rules were popularized by the TV show *The Big Bang Theory*. This function was designed by Ignacio Romero.
+This Python function implements the extended version of the classic Rock, Paper, Scissors game, including two additional choices: Lizard and Spock. The game rules were popularized by the TV show *The Big Bang Theory*. This function was designed by Ignacio Romero on nacho-branch.
 
 ### Game Rules
 - **Scissors** cuts **Paper**
@@ -29,7 +29,7 @@ The function `rock_paper_scissors_lizard_spock` takes the player's choice as inp
 ## Wordle
 
 ### Description
-This python function implements a Wordle game programme. This function was designed by Daylin Ortega.
+This python function implements a Wordle game programme. This function was designed by Daylin Ortega on day-branch.
 
 ### Game Rules
 
@@ -48,3 +48,4 @@ in the word and if it is in the correct position.
 ### Description
 The menu displays the on screen for the user.
 This function allows the user to choose playing between the games already described before or stop the interaction with a goodbye message.
+This function was designed by Camila Maire on cami-branch
