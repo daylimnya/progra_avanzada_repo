@@ -139,7 +139,7 @@ bye_bye = "See you soon!"
 def main_menu():
     """
     This function displays the main menu.
-    Allows the user to choose between playing one of the two games or exiting the menu
+    Allows the user to choose between playing one of the two games or exiting the menu.
     """
     while True:
         print(menu_opt)
@@ -152,9 +152,10 @@ def main_menu():
             except NameError:
                 print("Undefined option, Try again.")
         elif choice == '2':
-            wordle()
-        except NameError:
-            print("Undefined wordle option.")
+            try:
+                wordle()
+            except NameError:
+                print("Undefined wordle option.")
         elif choice == '3':
             print(bye_bye)
             break
