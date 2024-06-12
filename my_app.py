@@ -130,3 +130,37 @@ def Wordle():
 
     print(f"La palabra era <{palabra_oculta}>, lamentablemente no la adivinaste.😔")
 #Wordle()
+
+# Let's define constant values for word chains that may repeat
+menu_opt = "\n--- Game Menu ---\n1. Play Rock, Paper, Scissors, Lizard, Spock\n2. Play Wordle (in Spanish)\n3. Get out"
+undefined_option = "Invalid input. Please, choose 1, 2 o 3."
+bye_bye = "See you soon!"
+
+def main_menu():
+    """
+    This function displays the main menu.
+    Allows the user to choose between playing one of the two games or exiting the menu
+    """
+    while True:
+        print(menu_opt)
+        choice = input("Choose an option (1, 2, 3): ")
+        if choice == '1':
+            user_choice = input("Choose: rock, paper, scissors, lizard, spock: ").lower()
+            try:
+                result = rock_paper_scissors_lizard_spock(user_choice)
+                print(result)
+            except NameError:
+                print("Undefined option, Try again.")
+        elif choice == '2':
+            wordle()
+        except NameError:
+            print("Undefined wordle option.")
+        elif choice == '3':
+            print(bye_bye)
+            break
+        else:
+            print(undefined_option)
+
+if __name__ == "__main__":
+    main_menu()
+
